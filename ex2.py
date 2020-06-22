@@ -43,7 +43,6 @@ def buildheap(A):
 
 # priority queue
 
-
 def extract_max(A):
     global heap_size
     heap_size = len(A) - 1
