@@ -259,7 +259,7 @@ def find_Rep(city):
     global rep
     if (city == rep[city.id]):
         return city
-    rep[city.id] = findRep(rep[city.id])
+    rep[city.id] = find_Rep(rep[city.id])
     return rep[city.id]
 
 def union_rep(city,edge):
